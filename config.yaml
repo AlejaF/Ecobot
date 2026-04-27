@@ -1,0 +1,11 @@
+# config.yaml
+roi: {x: 455, y: 9, w: 1010, h: 1066}
+detection:
+  threshold_area: 5000
+  cooldown_time: 3
+  movement_ratio_max: 0.3
+  min_contour_area: 500
+  max_contour_area: 50000
+batch:
+  max_frames: 20
+  min_movement_ratio: 0.3

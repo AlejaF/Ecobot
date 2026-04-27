@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Ignore system files
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore Python virtual environment files
+*.lock
+.python-version
+
+# Ignore temporary or log files
+*.log
+*.tmp
+data/
+*.mp4
